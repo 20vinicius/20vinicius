@@ -1,0 +1,80 @@
+valor = float(input());
+
+cem = cinquenta = vinte = dez = cinco = dois = um = 0;
+cincents = vintecincents = dezcents = cincocents = cents = 0;
+
+valor = float("%.2f" % valor)
+if int(valor/100) >= 1:
+	cem = int(valor/100);
+	valor -= cem*100;
+
+valor = float("%.2f" % valor)
+if int(valor/50) >= 1:
+	cinquenta = int(valor/50);
+	valor -= cinquenta*50;
+
+valor = float("%.2f" % valor)
+if int(valor/20) >= 1:
+	vinte = int(valor/20.00);
+	valor -= vinte*20;
+
+valor = float("%.2f" % valor)
+if int(valor/10) >= 1:
+	dez = int(valor/10);
+	valor -= dez*10.00;
+
+valor = float("%.2f" % valor)
+if int(valor/5) >= 1:
+	cinco = int(valor/5);
+	valor -= cinco*5;
+
+valor = float("%.2f" % valor)
+if int(valor/2) >= 1:
+	dois = int(valor/2);
+	valor -= dois*2;
+
+valor = float("%.2f" % valor)
+if int(valor/1) >= 1:
+	um = int(valor/1);
+	valor -= um*1;
+
+valor = float("%.2f" % valor)
+if int(valor/0.50) >= 1:
+	cincents = int(valor/0.50);
+	valor -= cincents*0.50;
+
+valor = float("%.2f" % valor)
+if int(valor/0.25) >= 1:
+	vintecincents = int(valor/0.25);
+	valor -= vintecincents*0.25;
+
+valor = float("%.2f" % valor)
+if int(valor/0.10) >= 1:
+	dezcents = int(valor/0.10);
+	valor -= dezcents*0.10;
+
+valor = float("%.2f" % valor)
+if int(valor/0.05) >= 1:
+	cincocents = int(valor/0.05);
+	valor -= cincocents*0.05;
+
+valor = float("%.2f" % valor)
+if int(valor/0.01) >= 0.998:
+	cents = int(valor/0.01);
+	valor -= cents*0.01;
+
+print("NOTAS:");
+print("%d nota(s) de R$ 100.00" % cem);
+print("%d nota(s) de R$ 50.00" % cinquenta);
+print("%d nota(s) de R$ 20.00" % vinte);
+print("%d nota(s) de R$ 10.00" % dez);
+print("%d nota(s) de R$ 5.00" % cinco);
+print("%d nota(s) de R$ 2.00" % dois);
+
+print("MOEDAS:");
+print("%d moeda(s) de R$ 1.00" % um);
+print("%d moeda(s) de R$ 0.50" % cincents);
+print("%d moeda(s) de R$ 0.25" % vintecincents);
+print("%d moeda(s) de R$ 0.10" % dezcents);
+print("%d moeda(s) de R$ 0.05" % cincocents);
+print("%d moeda(s) de R$ 0.01" % cents);
