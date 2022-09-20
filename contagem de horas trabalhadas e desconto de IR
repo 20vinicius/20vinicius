@@ -1,0 +1,28 @@
+horas_trabalhadas = int(input('digite quantida de horas trabalhadas no dia :',)) 
+dias_trabalhados= int(input('digite quantida de dias trabalhados(no maximo 26) :',))
+salario= float(input('digite o seu salario bruto: ', ))
+desconto=float()
+liquido= salario - desconto
+valor_horas= (salario)/(horas_trabalhadas)/(dias_trabalhados)
+print('valor da hora em $ é{:.2f}'.format(valor_horas))
+if salario <=900:
+    print("isento")
+    print('salario liquido:',salario - desconto)
+elif (salario >= 900.01) and (salario <=1500):
+    desconto= (salario//100)*5
+    fgts= (salario//100)*11
+    print("desconto de IR:",desconto)
+    print('salario liquido:',salario - desconto)
+    print('desconto do fgts:', fgts)
+elif (salario >= 1500.01) and (salario <=2500):
+    desconto= (salario//100)*10
+    fgts= (salario//100)*11
+    print("desconto de IR:",desconto) 
+    print('salario liquido:',salario - desconto)
+    print('desconto do fgts:', fgts)
+else:
+    desconto= (salario//100)*20
+    fgts= (salario//100)*11
+    print("desconto de IR:",desconto) 
+    print('salario liquido:',salario - desconto)
+    print('desconto do fgts:', fgts)
