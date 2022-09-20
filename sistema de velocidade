@@ -1,0 +1,10 @@
+velocidade= int(input('Limete de velocidade da estrada 50km/h.Qual a velocidade do veículo'))
+if velocidade<50:
+    print('limete de velocidade da estrada 50km/h')
+elif (velocidade>= 50) and (velocidade <=60):
+    print('multa de 50 reais por ecesso de velocidade. Velocidade de',velocidade) 
+elif (velocidade >= 61) and (velocidade <=80):
+    print('multa de 100 reais por ecesso de velocidade. Velocidade de',velocidade) 
+else:
+    velocidade >81
+    print('multa de 300 reais por ecesso de velocidade. Velocidade de',velocidade)
