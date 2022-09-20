@@ -1,0 +1,16 @@
+l1 = input()
+l2 = input()
+n1 = []
+n2 = []
+for number in l1.split():
+    n1.append(float(number))
+
+for number in l2.split():
+    n2.append(float(number))
+    
+a = n2[0] - n1[0]
+b = n2[1] - n1[1]
+c = (a**2) + (b**2)
+dist = c**0.5
+
+print ("%.4f" % (dist))
