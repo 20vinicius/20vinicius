@@ -1,0 +1,16 @@
+dia=input("dia de nascimento")
+mes=input("mes de nascimento")
+ano=input("ano de nascimento")
+print("voce nasceu em", dia, mes, ano)
+
+n1= int(input("digitar A"))
+n2= int(input("digitar B"))
+soma= n1 + n2
+print("{} com {} e {}".format{n1, n2, soma})
+
+n= float(input("digitar"))
+print(n)
+n= bool(input("digitar"))
+print(n)
+n= input("")
+print(n.islower())
