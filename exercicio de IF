@@ -1,0 +1,24 @@
+import re
+
+TEMPO= int(input(" ANO DO SEU CARRO"))
+if TEMPO>=2017:
+    print("CARRO NOVO")
+else:
+     print("CARRO VELHO")
+BATIDO= str(input("SEU CARRO JA FOI BATIDO"))
+if re.match("[Ss][iI][mM]", BATIDO):
+    print("CARRO DESVALORIZADO EM 30%")
+else:
+     print("CARRO VALORIZADO")
+MULTAS= str(input("POSSUI MULTAS"))
+if re.match("[Ss][iI][mM]", MULTAS):
+    print("quantidade de MULTAS")
+    QUANTIDADE = int(input("NUMEROS DE MULTA")) 
+    if QUANTIDADE>=10:
+        print("não compramos")
+    else:
+        print("ok")
+else:
+    print("aceitamos seu CARRO")
+    print("obrigado")
+    
