@@ -1,0 +1,7 @@
+mes=8
+if mes == 1:
+    	print("Janeiro") 
+elif mes == 8: 
+    	print("AGOSTO") 
+else:
+		print("Mes inexistente")
