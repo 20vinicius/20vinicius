@@ -1,0 +1,14 @@
+#Crie um programa que leia 6 números#
+#digitados pelo usuário em qualquer ordem# 
+#e escreva esses números em ordem crescente.#
+
+A=int(input('digite primeiro numero'))
+B=int(input('digite segunda numero'))
+C=int(input('digite terceiro numero'))
+D=int(input('digite quarta numero'))
+E=int(input('digite quinte numero'))
+F=int(input('digite sexto numero'))
+lista= [A, B, C, D, E, F]
+lista.sort()
+
+print(lista)
