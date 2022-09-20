@@ -1,0 +1,4 @@
+A = float(input("digitar medida da base"))
+B= float(input("digitar medida da altura"))
+area= float(A*B)*2
+print("perimetro da area é",area)
