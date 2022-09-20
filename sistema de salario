@@ -1,0 +1,13 @@
+salario= float(input("digitar salario"))
+desconto=float()
+if salario <=600:
+    print("isento")
+elif (salario >= 601) and (salario <=1200):
+    desconto= (salario//100)*20
+    print("desconto de inss",desconto) 
+elif (salario >= 1200.01) and (salario <=2000):
+    desconto= (salario//100)*25
+    print("desconto de inss",desconto) 
+else:
+    desconto= (salario//100)*30
+    print("desconto de inss",desconto)
