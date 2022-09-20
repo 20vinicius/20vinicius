@@ -1,0 +1,7 @@
+x1= float(input('valor de x1:',))
+x2= float(input('valor de x2:',))
+y1= float(input('valor de y1:',))
+y2= float(input('valor de y2:',))
+dis=((x1-x2)**2)+((y1-y2)**2)
+q= dis**(0.5)
+print('resultado é {:.2f}'.format(q))
