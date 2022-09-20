@@ -1,0 +1,13 @@
+soma = 5+2
+subtrai = 5-2
+multiplicar= 5*2
+divide= 5/2
+x,y = divmod(5,2)
+w =pow(5,2)
+
+print("soma 5e2 =",soma)
+print("sobtrai 5e2=",subtrai)
+print("multiplicar 5e2=",multiplicar)
+print("divide 5e2=",divide)
+print("o resto de 5 divide 2 é igual a =",y)
+print("5 elevado a 2=",w)
