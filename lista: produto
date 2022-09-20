@@ -1,0 +1,8 @@
+a = float(input('digite o valor do primeiro produto:',))
+b = float(input('digite o valor do segundo produto',))
+c = float(input('digite o valor do terceito produto',))
+lista=[a, b, c]
+print('o produto mais caro:')
+print(max(lista))
+print('o produto mais barato que deve ser comprado:')
+print(min(lista))
