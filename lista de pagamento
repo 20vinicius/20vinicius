@@ -1,0 +1,6 @@
+linha1 = input()
+lista1 =linha1.split()
+linha2 = input()
+lista2 =linha2.split()
+total= int(lista1[1])*float(lista1[2])+ int(lista2[1])*float(lista2[2])
+print("VALOR A PAGAR: R$ %.2f" %total)
