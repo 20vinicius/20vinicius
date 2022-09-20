@@ -1,0 +1,7 @@
+A= int(input("digite a quantidade de anos"))
+B= int(input("digite a quantidade de meses"))
+C= int(input("digite a quantidade de dias"))
+anos= A*365
+meses= B*30
+dias= anos+meses+C
+print('sua idade em dias é',dias)
