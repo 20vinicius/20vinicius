@@ -1,0 +1,5 @@
+dia = [1, 2, 3, 4, 5, 6, 7]
+semana = ['domingo', 'segunda', 'terça', 'quarta', 'quinta', 'sexta', 'sabado']
+
+print(len(dia))
+print(len(semana))
