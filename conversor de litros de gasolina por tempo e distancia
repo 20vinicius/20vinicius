@@ -1,0 +1,4 @@
+TEMPO= int(input())
+VELOCIDADE= int(input())
+litros= (TEMPO * VELOCIDADE)/12
+print("%.3f" %litros)
