@@ -1,0 +1,31 @@
+salario= float(input("digite seu salario:",))
+almento=float()
+if salario <=280:
+    almento=salario*(0.2)
+    total= almento + salario
+    print('salario sem o reajuste=',salario)
+    print('valor do almento',almento)
+    print('valor do salario reajustado',total)
+    print('20% de almento')
+elif (salario >= 280) and (salario <=700):
+    almento= (salario//100)*15
+    total= almento + salario
+    print('salario sem o reajuste=',salario)
+    print('valor do almento',almento) 
+    print('valor do salario reajustado',total)
+    print('15% de almento')
+elif (salario >= 700.01) and (salario <=2000):
+    almento= (salario//100)*10
+    total= almento + salario
+    print('salario sem o reajuste=',salario)
+    print('valor do almento',almento) 
+    print('valor do salario reajustado',total)
+    print('10% de almento')
+else:
+    almento= (salario//100)*5
+    total= almento + salario
+    print('salario sem o reajuste=',salario)
+    print('valor do almento',almento) 
+    print('valor do salario reajustado',total)
+    print('15% de almento')
+    
