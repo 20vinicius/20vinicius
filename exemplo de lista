@@ -1,0 +1,8 @@
+a = int(input('digite primeiro numero:',))
+b = int(input('digite segundo numero:',))
+c = int(input('digite terceiro numero:',))
+lista=[a, b, c]
+print('o maior valor digitado foi:')
+print(max(lista))
+print('o menor valor digitado foi:')
+print(min(lista))
