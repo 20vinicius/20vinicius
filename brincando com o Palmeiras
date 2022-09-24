@@ -1,0 +1,8 @@
+valor1 =int (input(" digite valor 1: "))
+valor2 = int(input ("digite valor 2: "))
+
+soma = valor1 + valor2
+if soma == 1951:
+    print("valor da soma é",soma, "você não tem mundial")
+else:
+    print("valor da soma é: ",soma)
